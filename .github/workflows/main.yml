@@ -38,4 +38,4 @@ jobs:
       - name: Get Synopsys Detect Rescan
         run: >
           curl -s -L https://raw.github.com/blackducksoftware/detect_rescan/main/detect_rescan.sh > detect_rescan.sh; 
-          bash detect_rescan.sh --blackduck.url=https://poc04.blackduck.synopsys.com --blackduck.api.token=N2JiYWZmYjEtNTg0OC00MjFlLWE4ODItMTJmNzdlM2E5Yzg4OjM5M2JjNTk4LWFlZmEtNDA2Ni1iMzkxLWVjOGQ4OTFhODZiMg== --detect.project.name=spdemo --detect.project.version=master --quiet --testxml --report
+          bash detect_rescan.sh --blackduck.url=https://poc04.blackduck.synopsys.com --blackduck.api.token=N2JiYWZmYjEtNTg0OC00MjFlLWE4ODItMTJmNzdlM2E5Yzg4OjM5M2JjNTk4LWFlZmEtNDA2Ni1iMzkxLWVjOGQ4OTFhODZiMg== --detect.project.name=spdemo --quiet --testxml --report
